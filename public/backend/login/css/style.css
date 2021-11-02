@@ -1,0 +1,268 @@
+
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    transform: translateY(-50%);
+    bottom: initial;
+    z-index: 4;
+}
+.bg-primary{
+    background-color:#4e73df;
+}
+.login-box {
+    padding: 43px 50px 50px 50px;
+}
+.login-box h1 {
+    font-size: 24px;
+}
+
+/******************
+   2. Helper
+ ******************/
+.vertical-center-text {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+.form-button-action{
+    display:inline-flex
+}
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+.margin-left-10 {
+    margin-left: 10px;
+}
+.hiddenradio [type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.hiddenradio [type=radio] + i {
+    cursor: pointer;
+}
+.hiddenradio [type=radio]:checked + i {
+    outline: 3px solid #f72b1c;
+}
+.hiddenradio span {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #363636;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0 20px;
+    letter-spacing: 2px;
+    display: block;
+}
+*:focus {
+    outline: none !important;
+}
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+a {
+    text-decoration: none !important;
+}
+.padding-section {
+    padding: 100px 0;
+}
+.label-mt-4 {
+    margin-top: -4px!important;
+}
+.margin-bottom-4 {
+    margin-bottom: 4px;
+}
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+.margin-bottom-16 {
+    margin-bottom: 16px;
+}
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+.margin-bottom-5 {
+    margin-bottom: 5px !important;
+}
+.margin-top-15 {
+    margin-top: 15px;
+}
+.margin-top-20 {
+    margin-top: 20px;
+}
+.margin-top-30 {
+    margin-top: 30px;
+}
+.custom-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text-red {
+    color: #e74a3b;
+}
+.custom-font-size {
+    font-size: 80px;
+    color: #bcbcbc;
+}
+.image-size {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.image-margin {
+    margin-top: 27px;
+    margin-bottom: 26px;
+}
+.image-size-2 {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.bg-light-grey {
+    background-color: #edeff7 !important;
+}
+.custom-header h6 {
+    margin: 0;
+    color: #1572e8;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.text-gray-900 {
+    color:#3a3b45!important
+}
+.custom-alert .close{
+    width: auto !important;
+    top: 0 !important;
+}
+.home-version  p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #444444;
+    line-height: 1.2;
+    margin-top: 20px;
+}
+.home-version  p sub {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.sub {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.spinner {
+    display: none;
+}
+
+.card-header .card-title {
+    font-weight: 700 !important;
+}
+
+.custom-card {
+    margin-bottom: 24px!important;
+}
+
+.custom-width {
+    width: 5%;
+}
+
+.custom-width-action {
+    width: 16.8%;
+}
+
+.custom-color-default {
+    color: #FFC815;
+}
+
+.custom-color-1 {
+    color: #de788a;
+}
+
+.custom-color-2 {
+    color: #9b78de;
+}
+
+.custom-color-3 {
+    color: #ff9898;
+}
+
+.custom-color-4 {
+    color: #a2d444;
+}
+
+.custom-color-5 {
+    color: #15ffeb;
+}
+
+
+/***********************
+   3. DatetimePicker
+ **********************/
+.ui-timepicker-wrapper {
+    overflow-y: auto;
+    max-height: 150px;
+    width: 6.5em;
+    background: #fff;
+    border: 1px solid #ddd;
+    -webkit-box-shadow:0 5px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow:0 5px 10px rgba(0,0,0,0.2);
+    box-shadow:0 5px 10px rgba(0,0,0,0.2);
+    outline: none;
+    z-index: 10052;
+    margin: 0;
+}
+.ui-timepicker-wrapper.ui-timepicker-with-duration {
+    width: 13em;
+}
+.ui-timepicker-wrapper.ui-timepicker-with-duration.ui-timepicker-step-30,
+.ui-timepicker-wrapper.ui-timepicker-with-duration.ui-timepicker-step-60 {
+    width: 11em;
+}
+.ui-timepicker-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.ui-timepicker-duration {
+    margin-left: 5px; color: #888;
+}
+.ui-timepicker-list:hover .ui-timepicker-duration {
+    color: #888;
+}
+.ui-timepicker-list li {
+    padding: 3px 0 3px 5px;
+    cursor: pointer;
+    white-space: nowrap;
+    color: #000;
+    list-style: none;
+    margin: 0;
+}
+.ui-timepicker-list:hover .ui-timepicker-selected {
+    background: #fff; color: #000;
+}
+li.ui-timepicker-selected,
+.ui-timepicker-list li:hover,
+.ui-timepicker-list .ui-timepicker-selected:hover {
+    background: #1980EC; color: #fff;
+}
+li.ui-timepicker-selected .ui-timepicker-duration,
+.ui-timepicker-list li:hover .ui-timepicker-duration {
+    color: #ccc;
+}
+.ui-timepicker-list li.ui-timepicker-disabled,
+.ui-timepicker-list li.ui-timepicker-disabled:hover,
+.ui-timepicker-list li.ui-timepicker-selected.ui-timepicker-disabled {
+    color: #888;
+    cursor: default;
+}
+.ui-timepicker-list li.ui-timepicker-disabled:hover,
+.ui-timepicker-list li.ui-timepicker-selected.ui-timepicker-disabled {
+    background: #f2f2f2;
+}
